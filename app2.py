@@ -1,4 +1,5 @@
-import win32print  # impressora
+#import win32print  # impressora
+import win32printing
 import win32api
 import os
 from openpyxl import load_workbook
@@ -22,7 +23,7 @@ class App2:
         # contagem de trás para frente
         impressora = lista_impressoras[4]
         # 2 É A CONFIGURAÇÃO PADRÃO
-        win32print.SetDefaultPrinter(impressora[2])
+        win32printing.SetDefaultPrinter(impressora[2])
 
     def imprimir_documentos(self):
         # criando uma lista com os arquivos obtidos dentro da pasta 'pdf'

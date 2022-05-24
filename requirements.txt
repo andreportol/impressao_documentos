@@ -1,0 +1,8 @@
+colorama==0.4.4
+docx2pdf==0.1.8
+et-xmlfile==1.1.0
+openpyxl==3.0.10
+PyPDF3==1.0.6
+pywin32==304
+tqdm==4.64.0
+win32printing==0.1.3

@@ -1,4 +1,4 @@
-from PyPDF2 import PdfFileReader
+from PyPDF3 import PdfFileReader
 from docx2pdf import convert
 from openpyxl import Workbook
 import win32print
